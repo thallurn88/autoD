@@ -21,7 +21,7 @@ stages{
  
  stage("Checkout the terraform config"){
    steps{
-    git https://github.com/thallurn88/autoD.git
+    git 'https://github.com/thallurn88/autoD.git'
    }
   }
 
