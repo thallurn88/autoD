@@ -46,10 +46,6 @@ pipeline {
                 sh "terraform apply -input=false tfplan"
             }
         }
-         stage("Apply123") {
-            steps {
-                sh "terraform destroy -auto-approve"
-            }
-        }
+         
     }
 }
