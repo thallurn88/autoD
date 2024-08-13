@@ -6,8 +6,8 @@ pipeline {
     }
 
     environment {
-        secret_Key = credentials("secret_key_ID")
-        access_Key = credentials("access_key_ID")
+        secret_key_ID = credentials("secret_key_ID")
+        access_key_ID = credentials("access_key_ID")
     }
 
     stages {
